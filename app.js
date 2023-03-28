@@ -29,26 +29,31 @@ var dibujarPantalla = function(frases){
     //Pintamos segun el color
     switch(frases){
         case "rojo.":
+        case "rojo":
         color = "red";
         console.log(`En el switch es ${color}`);
         break;
 
         case "azul.":
+        case "azul":
         color = "blue";
         console.log(`En el switch es ${color}`);
         break;
 
         case "amarillo.":
+        case "amarillo":
         color = "yellow";
         console.log(`En el switch es ${color}`);
         break;
 
         case "verde.":
+        case "verde":
         color = "green";
         console.log(`En el switch es ${color}`);
         break;
 
         case "naranja.":
+        case "naranja":
         color = "orange";
         console.log(`En el switch es ${color}`);
         break;        
