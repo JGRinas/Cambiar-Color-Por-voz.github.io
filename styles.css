@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button-activar,
+.button-desactivar{
+    height: 100px;
+    width: 200px;
+    margin: 20px;
+
+    border-radius: 12px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+
+    cursor: pointer;
+}
+
+.button-desactivar{
+    background-color: #8b6c6cba;
+}
+
+.button-desactivar:hover{
+    background-color: #6d5454ba;
+}
+
+.button-activar{
+    background-color: #936533ba;
+}
+
+.button-activar:hover{
+    background-color: #694825ba;
+}
